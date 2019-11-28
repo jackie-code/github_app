@@ -22,7 +22,7 @@ function watchForm() {
   function displayResults(responseJson) {
     console.log(responseJson);
     for(let i=0; i< responseJson.length; i++){
-    $("#results-list").append(`<li><a href="${responseJson[i].html_url}">Click to see repo</a></li>`);
+    $("#results-list").append(`<li><a href="${responseJson[i].html_url}"><h2>${responseJson[i].name}</h2><br>${responseJson[i].html_url}</a></li>`);
     $('#results').show();
     }
   
