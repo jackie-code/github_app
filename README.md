@@ -1,4 +1,4 @@
-#GitHub App
+# GitHub App
 
 <dl>
   <dt>Search repos</dt>
